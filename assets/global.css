@@ -1,0 +1,79 @@
+:root {
+  /* color */
+  --color-main: rgba(35, 134, 248, 1);
+  --color-main-hover: rgba(27, 102, 190, 1);
+  --color-main-shadow: rgba(9, 144, 255, 0.3);
+  --color-main-gradient-from: rgba(29, 203, 255, 1);
+  --color-main-gradient-to: rgba(0, 118, 255, 1);
+
+  --color-bg: rgba(0, 0, 0, 1);
+  --color-block: rgba(29, 29, 29, 1);
+  --color-section: rgba(44, 44, 44, 1);
+  --color-gradient: linear-gradient(rgba(0, 0, 0, 1), rgba(23, 23, 23, 1));
+  --color-border: rgba(132, 132, 132, 1);
+  --color-popup-cover: rgba(0, 0, 0, 0.7);
+  --color-box: rgba(33, 33, 33, 1);
+  --color-box-shadow: 0 4px 16px rgba(0, 0, 0, 1);
+
+  --color-white: rgba(255, 255, 255, 1);
+  --color-red: rgba(255, 100, 100, 1);
+  --color-orange: rgba(255, 154, 100, 1);
+  --color-yellow: rgba(255, 216, 0, 1);
+  --color-green: rgba(48, 210, 115, 1);
+  --color-blue: rgba(35, 134, 248, 1);
+  --color-violet: rgba(125, 87, 252, 1);
+  --color-gray: rgba(160, 160, 160, 1);
+
+  --color-red-hover: rgba(185, 76, 76, 1);
+  --color-orange-hover: rgba(208, 127, 84, 1);
+  --color-yellow-hover: rgba(208, 160, 84, 1);
+  --color-green-hover: rgba(42, 172, 96, 1);
+  --color-blue-hover: rgba(27, 102, 190, 1);
+  --color-violet-hover: rgba(92, 63, 191, 1);
+  --color-gray-hover: rgba(75, 75, 75, 1);
+
+  --color-blue-gradient-from: rgba(39, 227, 255, 1);
+  --color-blue-gradient-to: rgba(27, 102, 190, 1);
+  --color-green-gradient-from: rgba(90, 255, 158, 1);
+  --color-green-gradient-to: rgba(42, 172, 96, 1);
+  --color-orange-gradient-from: rgba(255, 183, 49, 1);
+  --color-orange-gradient-to: rgba(255, 99, 99, 1);
+
+  --font-size-h1: 60px;
+  --font-size-h2: 50px;
+  --font-size-h3: 40px;
+  --font-size-h4: 32px;
+  --font-size-h5: 24px;
+  --font-size-h6: 16px;
+
+  --font-size-text: 16px;
+  --font-size-tip: 14px;
+}
+
+.css {
+  width: 100px;
+  display: block;
+  animation: none;
+
+  color: #c55;
+  border: 0;
+}
+
+.test {
+  position: relative;
+  left: 0;
+}
+
+.insert {
+  display: block;
+}
+
+.alter:after {
+  color: red;
+  content: "example";
+}
+
+.delete {
+  display: block;
+}
+
